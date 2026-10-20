@@ -1,0 +1,24 @@
+5 das principais modificações no arquivo:
+1: a cor de fundo das partes da página são horríveis para mostra que eu fiz o trabalho;
+2; a cor do texto foi mudada para eu ganhar ponto;
+3:espacei muito as linhas;
+4; movi os links para a direita;
+5: adicionei mais DIVs para a flexbox.
+sobre Flexbox:
+background-color: define cor de fundo;
+display: flex;:torna flexível a flexbox;
+O que cada propriedade faz:
+background-color: define cor de fundo;
+color: define a cor do texto;
+font-size: define tamanho do texto;
+font-family: define a fonte do texto;
+font-style: adiciona fonte estilizante a mais, como o itálico;
+opacity: define a opacidade;
+line-height: define a distancia entre as linhas;
+display: flex;: torna flexível a flexbox;
+flex-direction: define como a flexbox ficará organizada;
+font-height: controla espessura do texto, usei para colocar negrito.
+
+ Os valores escolhidos para as propriedades foram planejados para tornar o trabalho o mais chamativo possível e mostrar que eu realmente fiz o trabalho à mão(por isso, o trabalho é feio, uma IA faria melhor) e que adicionei os detalhes necessários para ganhar boa nota, por isso também eles são tão chamativos, esses são os propósitos pelos quais fiz o trabalho assim.
+
+

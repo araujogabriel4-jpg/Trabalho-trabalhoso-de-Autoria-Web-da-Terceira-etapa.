@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configurações básicas obrigatórias de codificação e responsividade -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel de Araújo</title>
+    <link rel="icon" href="imagens/triste.png" type="image/png">
+
+    <!-- REQUISITO 1: Link do Bootstrap carregado localmente -->
+<link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Link para o seu arquivo CSS personalizado (onde estão as Media Queries) -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="bg-light py-5">
+    <!-- Container do Bootstrap para centralizar o site com margens -->
+    <div class="container bg-white p-4 rounded shadow-sm">
+        
+        <!-- Título estilizado com classes do Bootstrap -->
+        <h1 class="text-center text-primary mb-4 fw-bold">Quem Sou Eu?</h1>
+
+        <!-- Seção de Perfil -->
+        <div class="perfil-container mb-5">
+            <div class="perfil-foto">
+                <img src="imagens/eu.jpg" alt="imagem de um homem de duas caras">
+            </div>
+            <div class="perfil-texto">
+                <p class="lead">Olá, meu nome é Gabriel de Araújo de Lima, nasci no Rio de Janeiro, gosto de jogar videogame, meditar e estudar assuntos de meu interesse no meu tempo livre.</p>
+                <p class="text-muted">Busco agir virtuosamente e escolhi a imagem de um homem de duas caras para me representar pois nem sempre é possível identificar todos os traços de uma pessoa com um conhecimento superficial dela, às vezes, as pessoas podem ter características "invisíveis".</p>
+            </div>
+        </div>
+
+        <!-- Seção de Links Úteis -->
+        <div class="text-center mb-5">
+            <h5 class="text-muted mb-3">Links Úteis</h5>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <a href="https://google.com" target="_blank" class="btn btn-outline-danger d-flex align-items-center">
+                    <img src="imagens/google.jpg" alt="Google" style="height: 30px;">
+                </a>
+                <a href="https://youtube.com" target="_blank" class="btn btn-outline-danger d-flex align-items-center">
+                    <img src="imagens/youtube.png" alt="YouTube" style="height: 30px;">
+                </a>
+                <a href="https://ifrn.edu.br" target="_blank" class="btn btn-outline-primary d-flex align-items-center">
+                    <img src="imagens/suap.png" alt="SUAP" style="height: 30px;">
+                </a>
+            </div>
+        </div>
+
+        <!-- REQUISITO 2: Tabela com estilos nativos do Bootstrap -->
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered border-light align-middle m-0">
+                <thead class="table-primary text-center">
+                    <tr>
+                        <th style="width: 35%;">Preferências pessoais</th>
+                        <th>Por que gosto?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="fw-bold text-center">Jogar videogame</td>
+                        <td class="text-muted">É relaxante, dá empolgação, e ajuda a passar o tempo.</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-center">Meditar</td>
+                        <td class="text-muted">Gosto de organizar os pensamentos e refletir sobre a mediocridade ou grandiosidade das coisas.</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-center">Estudar o que quero</td>
+                        <td class="text-muted">É legal e realmente passa a sensação de aprendizado.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

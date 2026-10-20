@@ -1,0 +1,53 @@
+/* Limitação de tamanho máximo da caixa do site para telas grandes */
+.container {
+    max-width: 800px;
+}
+
+/* Configurações básicas da imagem de perfil */
+.perfil-foto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.375rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+}
+
+/* REQUISITO OBRIGATÓRIO: RESPONSIVIDADE COM MEDIA QUERIES */
+
+/* 1. Regra para telas GRANDES (Computadores): Mostra foto e texto lado a lado */
+@media (min-width: 768px) {
+    .perfil-container {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+    .perfil-foto {
+        flex: 0 0 auto;
+    }
+}
+
+/* 2. Regra para telas PEQUENAS (Celulares): Empilha a foto acima do texto e centraliza */
+@media (max-width: 767.98px) {
+    .perfil-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .perfil-foto {
+        margin-bottom: 1.5rem;
+    }
+}
+
+/*3. Regras para telas médias (Tablets)*/
+@media (min-width: 768px) and (max-width: 1024px){
+    .perfil-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+
+    }
+    .perfil-foto {
+        flex: 0 0 200px;
+    }
+}
