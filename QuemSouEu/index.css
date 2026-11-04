@@ -1,9 +1,6 @@
-/* Limitação de tamanho máximo da caixa do site para telas grandes */
 .container {
     max-width: 800px;
 }
-
-/* Configurações básicas da imagem de perfil */
 .perfil-foto img {
     width: 200px;
     height: 200px;
@@ -38,16 +35,25 @@
     }
 }
 
-/*3. Regras para telas médias (Tablets)*/
-@media (min-width: 768px) and (max-width: 1024px){
-    .perfil-container{
+/*3. Regras para telas médias(telas a partir de 768px até 991px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    /* Organiza a foto e o texto lado a lado */
+    .perfil-container {
         display: flex;
-        flex-direction: row;
         align-items: center;
-        gap: 1.5rem;
-
+        gap: 30px; /* Espaço entre a foto e o texto */
     }
-    .perfil-foto {
-        flex: 0 0 200px;
+
+    /* Ajusta o tamanho da imagem de perfil no tablet */
+    .perfil-foto img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    .perfil-texto p {
+        font-size: 1.1rem;
+        text-align: left;
     }
 }
+
