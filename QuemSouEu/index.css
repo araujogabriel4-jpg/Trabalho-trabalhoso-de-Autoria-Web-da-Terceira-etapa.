@@ -39,7 +39,7 @@
     .perfil-container {
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 1rem;
     }
     .perfil-foto img {
         width: 200px;
