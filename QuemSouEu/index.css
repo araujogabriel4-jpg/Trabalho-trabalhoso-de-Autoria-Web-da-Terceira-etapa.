@@ -6,7 +6,7 @@
     height: 200px;
     object-fit: cover;
     border-radius: 0.375rem;
-    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    box-shadow: 0 0.300rem 0.25rem rgba(0,0,0,0.075);
 }
 
 /* REQUISITO OBRIGATÓRIO: RESPONSIVIDADE COM MEDIA QUERIES */
@@ -38,14 +38,11 @@
 /*3. Regras para telas médias(telas a partir de 768px até 991px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     
-    /* Organiza a foto e o texto lado a lado */
     .perfil-container {
         display: flex;
         align-items: center;
-        gap: 30px; /* Espaço entre a foto e o texto */
+        gap: 30px;
     }
-
-    /* Ajusta o tamanho da imagem de perfil no tablet */
     .perfil-foto img {
         width: 200px;
         height: 200px;
