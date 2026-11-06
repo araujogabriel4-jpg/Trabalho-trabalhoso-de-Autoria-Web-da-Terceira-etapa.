@@ -9,10 +9,8 @@
     box-shadow: 0 0.300rem 0.25rem rgba(0,0,0,0.075);
 }
 
-/* REQUISITO OBRIGATÓRIO: RESPONSIVIDADE COM MEDIA QUERIES */
-
 /* 1. Regra para telas GRANDES (Computadores): Mostra foto e texto lado a lado */
-@media (min-width: 768px) {
+@media (min-width: 991.99px) {
     .perfil-container {
         display: flex;
         align-items: center;
